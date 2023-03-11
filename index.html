@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesos Directos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="form">
+            <h2>Añadir Acceso</h2>
+            <form>
+                <input type="text" name="name" id="name" placeholder="Introduce el nombre" required>
+                <input type="text" name="url" id="url" placeholder="URL Destino" required>
+                <input type="text" name="image" id="image" placeholder="URL Imagen" required>
+                <div class="botones">
+                    <input type="reset" value="Deshacer">
+                    <input type="submit" value="Añadir" id="add">
+                </div>
+            </form>
+        </div>
+        <div class="accesos">
+            <a href="https://www.google.com" target="_blank">
+                <div class="box">
+                    <div class="img">
+                        <img src="https://cdn.freebiesupply.com/logos/large/2x/google-icon-logo-png-transparent.png"
+                            width="32px" />
+                    </div>
+                    <span>Google</span>
+                </div>
+            </a>
+            
+        </div>
+    </div>
+</body>
+</html>
